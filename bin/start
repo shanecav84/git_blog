@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/git_blog'
+require_relative '../lib/git_blog/application/app'
+
+require 'bundler/setup'
+Bundler.require
+
+GitBlog::Application::App.run!

@@ -1,0 +1,11 @@
+doctype html
+html
+  link rel='stylesheet' href='/post.css'
+  link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400'
+  link rel='stylesheet' href='/vendor/highlight/styles/atom-one-dark.css'
+  script src="/vendor/highlight/highlight.pack.js"
+  script src='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/ruby.min.js'
+  javascript:
+    hljs.initHighlightingOnLoad();
+  body
+    #container== yield
